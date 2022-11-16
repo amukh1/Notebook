@@ -18,7 +18,7 @@ ${this.desc}
 
 
 new Page("Trigonometry", "My notes on Trigonometry, and Tao/pi");
-new Page("Derivatives", "My notes on Derivatives and how they nice");
+new Page("Derivatives", "My notes on Derivatives and how they work");
 new Page('Integrals','My notes on integrals and areas under curves');
 
 // let page = window.location.hash.slice(1)
