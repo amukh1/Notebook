@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+    font-family: 'Oswald', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.nav {
+    color: white;
+    background-color: rgb(79, 79, 255);
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    padding: 10px;
+}
+
+.navPages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+.nav__logo {
+    cursor: pointer;
+}
+
+.navItem {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.pageHead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(79, 79, 255); */
+    color: rgb(79, 79, 255);
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 5px;
+    padding: 10px;
+}
+
+.pages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(79, 79, 255); */
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 5px;
+    padding: 10px;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(79, 79, 255);
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 5px;
+    /* padding: 10px; */
+    width: fit-content;
+    text-align: center;
+    border-radius: 25px;
+    border: 5px solid rgb(79, 79, 255);
+    overflow: hidden;
+}
+
+.pageName {
+    background-color: white;
+    color: rgb(79, 79, 255);
+    padding: 5px;
+    width: 125%;
+    /* border-radius: 25px; */
+}
+
+.pageDesc {
+    margin: 5px;
+}
